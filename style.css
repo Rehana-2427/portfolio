@@ -1057,15 +1057,37 @@ footer span {
 }
 
 /* ───── SCROLL ANIMATION ───── */
-.animate  {
+/* Default hidden state */
+.animate {
   opacity: 0;
-  transform: translateY(40px) scale(0.95);
-  transition: all 0.7s cubic-bezier(.2, .65, .3, 1);
+  transform: translateY(60px);
+  transition: all 0.7s ease;
 }
 
+/* When visible */
 .animate.visible {
   opacity: 1;
-  transform: translateY(0) scale(1);
+  transform: translateY(0);
+}
+
+/* 🔽 Scrolling DOWN */
+.scroll-down {
+  transition-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* 🔼 Scrolling UP (different feel) */
+.scroll-up {
+  transition-timing-function: cubic-bezier(0.6, 0, 0.2, 1);
+}
+
+/* DOWN → comes from bottom */
+.scroll-down.from-bottom {
+  transform: translateY(60px);
+}
+
+/* UP → comes from top */
+.scroll-up.from-bottom {
+  transform: translateY(-60px);
 }
 
 /* ───── RESPONSIVE ───── */
@@ -1161,3 +1183,4 @@ footer span {
 .animate {
   transition-delay: var(--delay, 0s);
 }
+
