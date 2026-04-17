@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shaik Rehana | Full Stack Developer</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
@@ -13,7 +13,7 @@
   <body>
     <!-- NAV -->
     <nav>
-      <div class="nav-logo">SR.</div>
+      <div class="nav-logo">Rehana S</div>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
@@ -28,11 +28,11 @@
     <section class="hero" id="home">
       <div class="hero-left">
         <div class="hero-tag">Available for opportunities</div>
-        <h1>Shaik<br /><span>Rehana</span></h1>
+        <h1>Rehana S</h1>
         <p class="hero-desc">
-          Full Stack Developer specializing in Java & React.js — crafting
-          scalable microservices and intuitive frontends with 2+ years of
-          real-world production experience.
+          Software Developer specializing in Java & React.js — crafting scalable
+          microservices and intuitive frontends with 2+ years of real-world
+          production experience.
         </p>
         <div class="hero-ctas">
           <a href="#projects" class="btn-primary">View Projects →</a>
@@ -81,7 +81,7 @@
       <div class="section-tag">Who I Am</div>
       <h2>Passionate about building<br />production-grade systems</h2>
       <div class="about-grid">
-        <div class="about-text fade-in">
+        <div class="about-text  animate from-left" style="--delay:0.1s">
           <p>
             I'm a Full Stack Developer with 2 years of hands-on experience
             turning ideas into scalable, secure web applications. From
@@ -100,7 +100,7 @@
             AI-powered web scraping.
           </p>
         </div>
-        <div class="about-highlights fade-in">
+        <div class="about-highlights  animate from-right" style="--delay:0.2s">
           <div class="highlight-card">
             <div class="highlight-icon">🏗️</div>
             <div>
@@ -149,79 +149,92 @@
     <section class="skills-section" id="skills">
       <div class="section-tag">Technical Arsenal</div>
       <h2>Skills &amp; Technologies</h2>
+
       <div class="skills-grid">
-        <div class="skill-card fade-in">
+        <!-- Backend -->
+        <div class="skill-card animate from-bottom" style="--delay:0.1s">
           <div class="skill-card-icon" style="background: #fff3f0">☕</div>
           <h3>Backend Development</h3>
           <div class="skill-tags">
-            <span class="skill-tag tag-dark">Java 8</span>
+            <span class="skill-tag tag-accent">Java 8</span>
             <span class="skill-tag tag-accent">Spring Boot</span>
-            <span class="skill-tag tag-light">Microservices</span>
-            <span class="skill-tag tag-light">REST APIs</span>
-            <span class="skill-tag tag-light">Spring Data JPA</span>
-            <span class="skill-tag tag-light">Hibernate</span>
-            <span class="skill-tag tag-light">Streams &amp; Lambda</span>
-            <span class="skill-tag tag-light">Exception Handling</span>
+            <span class="skill-tag tag-accent">Microservices</span>
+            <span class="skill-tag tag-accent">REST APIs</span>
+            <span class="skill-tag tag-accent">Spring Data JPA</span>
+            <span class="skill-tag tag-accent">Hibernate</span>
+            <span class="skill-tag tag-accent">Streams & Lambda</span>
+            <span class="skill-tag tag-accent">Exception Handling</span>
           </div>
         </div>
-        <div class="skill-card fade-in">
+
+        <!-- Frontend -->
+        <div class="skill-card animate from-bottom" style="--delay:0.2s">
           <div class="skill-card-icon" style="background: #e8f4fd">⚛️</div>
           <h3>Frontend Development</h3>
           <div class="skill-tags">
-            <span class="skill-tag tag-blue">React.js</span>
-            <span class="skill-tag tag-light">Hooks</span>
-            <span class="skill-tag tag-light">React Router</span>
-            <span class="skill-tag tag-light">JavaScript</span>
-            <span class="skill-tag tag-light">HTML5</span>
-            <span class="skill-tag tag-light">CSS3</span>
-            <span class="skill-tag tag-light">Bootstrap</span>
+            <span class="skill-tag tag-accent">React.js</span>
+            <span class="skill-tag tag-accent">Hooks</span>
+            <span class="skill-tag tag-accent">React Router</span>
+            <span class="skill-tag tag-accent">JavaScript</span>
+            <span class="skill-tag tag-accent">HTML5</span>
+            <span class="skill-tag tag-accent">CSS3</span>
+            <span class="skill-tag tag-accent">Bootstrap</span>
           </div>
         </div>
-        <div class="skill-card fade-in">
+
+        <!-- Database -->
+        <div class="skill-card  animate from-bottom" style="--delay:0.1s">
           <div class="skill-card-icon" style="background: #e8f5e9">🗄️</div>
-          <h3>Database &amp; Caching</h3>
+          <h3>Database & Caching</h3>
           <div class="skill-tags">
-            <span class="skill-tag tag-teal">MySQL</span>
-            <span class="skill-tag tag-teal">MongoDB</span>
-            <span class="skill-tag tag-light">Redis</span>
-            <span class="skill-tag tag-light">Caffeine Cache</span>
-            <span class="skill-tag tag-light">Joins &amp; Subqueries</span>
+            <span class="skill-tag tag-accent">MySQL</span>
+            <span class="skill-tag tag-accent">MongoDB</span>
+            <span class="skill-tag tag-accent">Redis</span>
+            <span class="skill-tag tag-accent">Caffeine Cache</span>
+            <span class="skill-tag tag-accent">Joins & Subqueries</span>
           </div>
         </div>
-        <div class="skill-card fade-in">
+
+        <!-- Security -->
+        <div class="skill-card animate from-bottom" style="--delay:0.2s">
           <div class="skill-card-icon" style="background: #fff0f0">🔒</div>
-          <h3>Security &amp; Auth</h3>
+          <h3>Security & Auth</h3>
           <div class="skill-tags">
             <span class="skill-tag tag-accent">JWT</span>
             <span class="skill-tag tag-accent">Spring Security</span>
-            <span class="skill-tag tag-light">Firebase Auth</span>
-            <span class="skill-tag tag-light">Google Login</span>
-            <span class="skill-tag tag-light">OAuth</span>
+            <span class="skill-tag tag-accent">Firebase Auth</span>
+            <span class="skill-tag tag-accent">Google Login</span>
           </div>
         </div>
-        <div class="skill-card fade-in">
+
+        <!-- Architecture -->
+        <div class="skill-card animate from-bottom" style="--delay:0.4s">
           <div class="skill-card-icon" style="background: #faf3e0">🏛️</div>
-          <h3>Architecture &amp; Design</h3>
+          <h3>Architecture & Design</h3>
           <div class="skill-tags">
-            <span class="skill-tag tag-dark">Eureka Discovery</span>
-            <span class="skill-tag tag-light">API Gateway</span>
-            <span class="skill-tag tag-light">Feign Client</span>
-            <span class="skill-tag tag-light">Circuit Breaker</span>
-            <span class="skill-tag tag-light">Service Mesh</span>
+            <span class="skill-tag tag-accent">Eureka Discovery</span>
+            <span class="skill-tag tag-accent">API Gateway</span>
+            <span class="skill-tag tag-accent">Feign Client</span>
+            <span class="skill-tag tag-accent">Circuit Breaker</span>
+            <span class="skill-tag tag-accent">Singleton Pattern</span>
           </div>
         </div>
-        <div class="skill-card fade-in">
+
+        <!-- Tools -->
+        <div class="skill-card animate from-bottom" style="--delay:0.2s">
           <div class="skill-card-icon" style="background: #f0f4ff">🛠️</div>
-          <h3>Tools &amp; DevOps</h3>
+          <h3>Tools & DevOps</h3>
           <div class="skill-tags">
-            <span class="skill-tag tag-blue">Git</span>
-            <span class="skill-tag tag-light">Maven</span>
-            <span class="skill-tag tag-light">Postman</span>
-            <span class="skill-tag tag-light">Swagger</span>
-            <span class="skill-tag tag-light">FileZilla</span>
-            <span class="skill-tag tag-light">PM2</span>
-            <span class="skill-tag tag-light">Ubuntu/Linux</span>
-            <span class="skill-tag tag-light">Zapier</span>
+            <span class="skill-tag tag-accent">Git</span>
+            <span class="skill-tag tag-accent">Maven</span>
+            <span class="skill-tag tag-accent">Postman</span>
+            <span class="skill-tag tag-accent">FileZilla</span>
+            <span class="skill-tag tag-accent">PM2</span>
+            <span class="skill-tag tag-accent">Ubuntu/Linux</span>
+            <span class="skill-tag tag-accent">Zapier</span>
+            <span class="skill-tag tag-accent">Adzuna API</span>
+            <span class="skill-tag tag-accent">Strapi CMS</span>
+            <span class="skill-tag tag-accent">Gen Ai</span>
           </div>
         </div>
       </div>
@@ -233,7 +246,7 @@
       <h2>Professional Experience</h2>
       <div class="exp-timeline">
         <!-- Current Job -->
-        <div class="exp-item fade-in">
+        <div class="exp-item animate from-right" style="--delay:0.1s">
           <div class="exp-meta">
             <span class="exp-company">Shiksha Infotech Pvt Ltd</span>
             <span class="exp-period">Mar 2024 – Present</span>
@@ -272,7 +285,7 @@
           </ul>
         </div>
         <!-- Internship -->
-        <div class="exp-item fade-in">
+        <div class="exp-item animate from-right" style="--delay:0.1s">
           <div class="exp-meta">
             <span class="exp-company">Besant Technologies</span>
             <span class="exp-period">Jul 2023 – Feb 2024</span>
@@ -302,7 +315,7 @@
       <h2>Projects I've Built</h2>
       <div class="projects-grid">
         <!-- JobBox -->
-        <div class="project-card fade-in">
+        <div class="project-card animate from-left" style="--delay:0.1s">
           <div class="project-banner banner-jobbox">
             <div class="project-inner-banner">
               <div class="banner-icon">💼</div>
@@ -323,6 +336,7 @@
               <span class="tech-pill">React.js</span>
               <span class="tech-pill">JWT</span>
               <span class="tech-pill">Redis</span>
+              <span class="tech-pill">Caffeine</span>
               <span class="tech-pill">MySQL</span>
               <span class="tech-pill">Adzuna API</span>
             </div>
@@ -330,7 +344,7 @@
         </div>
 
         <!-- SignBook -->
-        <div class="project-card fade-in">
+        <div class="project-card animate from-right" style="--delay:0.1s">
           <div class="project-banner banner-signbook">
             <div class="project-inner-banner">
               <div class="banner-icon">✍️</div>
@@ -360,8 +374,84 @@
           </div>
         </div>
 
+        <!-- Hotel Booking -->
+        <div class="project-card animate from-left" style="--delay:0.1s">
+          <div class="project-banner banner-hotel">
+            <div class="project-inner-banner">
+              <div class="banner-icon">🏨</div>
+              <div class="banner-label">Academic Project</div>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-category">🏨 Full Stack · Academic</div>
+            <h3>Hotel Booking Web App</h3>
+            <p class="project-desc">
+              Full-stack hotel booking system with Spring Security role
+              management, Admin Dashboard for inventory, and a smooth React.js
+              user experience for browsing and reserving rooms.
+            </p>
+            <div class="project-tech">
+              <span class="tech-pill">Spring Boot</span>
+              <span class="tech-pill">React.js</span>
+              <span class="tech-pill">MySQL</span>
+              <span class="tech-pill">Spring Security</span>
+              <span class="tech-pill">Admin Dashboard</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Movie Poster -->
+        <div class="project-card animate from-right" style="--delay:0.1s">
+          <div class="project-banner banner-movies">
+            <div class="project-inner-banner">
+              <div class="banner-icon">🎬</div>
+              <div class="banner-label">Fresher Project</div>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-category">🎬 Frontend Design · Fresher-era</div>
+            <h3>Movie Poster Project</h3>
+            <p class="project-desc">
+              Creative frontend project designing cinematic movie poster layouts
+              using HTML and CSS — demonstrating strong visual design sense,
+              typography, and responsive grid layouts.
+            </p>
+            <div class="project-tech">
+              <span class="tech-pill">HTML5</span>
+              <span class="tech-pill">CSS3</span>
+              <span class="tech-pill">Responsive Design</span>
+              \
+            </div>
+          </div>
+        </div>
+
+        <!-- Car Rental DB -->
+        <div class="project-card animate from-left" style="--delay:0.1s">
+          <div class="project-banner banner-rental">
+            <div class="project-inner-banner">
+              <div class="banner-icon">🚗</div>
+              <div class="banner-label">Database Project</div>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-category">🗄️ SQL Database · Fresher-era</div>
+            <h3>Car Rental Database System</h3>
+            <p class="project-desc">
+              Relational database design for a car rental system using SQL —
+              covering complex joins, subqueries, stored procedures, and
+              normalized schema design for efficient fleet and booking
+              management.
+            </p>
+            <div class="project-tech">
+              <span class="tech-pill">SQL</span>
+              <span class="tech-pill">Joins &amp; Subqueries</span>
+              <span class="tech-pill">Schema Design</span>
+              <span class="tech-pill">Stored Procedures</span>
+            </div>
+          </div>
+        </div>
         <!-- FEATURED: Blockchain -->
-        <div class="project-card fade-in">
+        <div class="project-card animate from-right" style="--delay:0.1s">
           <div class="project-banner banner-blockchain">
             <div class="project-inner-banner">
               <div class="banner-icon">⛓️</div>
@@ -390,86 +480,6 @@
             </div>
           </div>
         </div>
-
-        <!-- Hotel Booking -->
-        <div class="project-card fade-in">
-          <div
-            class="project-banner"
-            style="background: #1a2a4a; color: #88c4f5"
-          >
-            <div class="project-inner-banner">
-              <div class="banner-icon">🏨</div>
-              <div class="banner-label">Academic Project</div>
-            </div>
-          </div>
-          <div class="project-body">
-            <div class="project-category">🏨 Full Stack · Academic</div>
-            <h3>Hotel Booking Web App</h3>
-            <p class="project-desc">
-              Full-stack hotel booking system with Spring Security role
-              management, Admin Dashboard for inventory, and a smooth React.js
-              user experience for browsing and reserving rooms.
-            </p>
-            <div class="project-tech">
-              <span class="tech-pill">Spring Boot</span>
-              <span class="tech-pill">React.js</span>
-              <span class="tech-pill">MySQL</span>
-              <span class="tech-pill">Spring Security</span>
-              <span class="tech-pill">Admin Dashboard</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Movie Poster -->
-        <div class="project-card fade-in">
-          <div class="project-banner banner-movies">
-            <div class="project-inner-banner">
-              <div class="banner-icon">🎬</div>
-              <div class="banner-label">Fresher Project</div>
-            </div>
-          </div>
-          <div class="project-body">
-            <div class="project-category">🎬 Frontend Design · Fresher-era</div>
-            <h3>Movie Poster Project</h3>
-            <p class="project-desc">
-              Creative frontend project designing cinematic movie poster layouts
-              using HTML and CSS — demonstrating strong visual design sense,
-              typography, and responsive grid layouts.
-            </p>
-            <div class="project-tech">
-              <span class="tech-pill">HTML5</span>
-              <span class="tech-pill">CSS3</span>
-              <span class="tech-pill">Responsive Design</span>
-              <span class="tech-pill">Typography</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Car Rental DB -->
-        <div class="project-card fade-in">
-          <div class="project-banner banner-rental">
-            <div class="project-inner-banner">
-              <div class="banner-icon">🚗</div>
-              <div class="banner-label">Database Project</div>
-            </div>
-          </div>
-          <div class="project-body">
-            <div class="project-category">🗄️ SQL Database · Fresher-era</div>
-            <h3>Car Rental Database System</h3>
-            <p class="project-desc">
-              Relational database design for a car rental system using SQL —
-              covering complex joins, subqueries, stored procedures, and
-              normalized schema design for efficient fleet and booking
-              management.
-            </p>
-            <div class="project-tech">
-              <span class="tech-pill">SQL</span>
-              <span class="tech-pill">Joins &amp; Subqueries</span>
-              <span class="tech-pill">Schema Design</span>
-              <span class="tech-pill">Stored Procedures</span>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
 
@@ -478,7 +488,7 @@
       <div class="section-tag">Academics</div>
       <h2>Educational Background</h2>
       <div class="edu-grid">
-        <div class="edu-card fade-in">
+        <div class="edu-card animate zoom-in" style="--delay:0.2s">
           <div class="edu-degree">B.Tech — Computer Science</div>
           <div class="edu-school">
             Sri Venkateswara College of Engineering &amp; Technology (SVCET),
@@ -499,7 +509,7 @@
             </div>
           </div>
         </div>
-        <div class="edu-card fade-in">
+        <div class="edu-card animate zoom-in" style="--delay:0.1s">
           <div class="edu-degree">Intermediate (12th)</div>
           <div class="edu-school">
             Sri Chaitanya Junior College, Piler · Board of Intermediate
@@ -520,7 +530,7 @@
             </div>
           </div>
         </div>
-        <div class="edu-card fade-in">
+        <div class="edu-card animate zoom-in" style="--delay:0.4s">
           <div class="edu-degree">S.S.C (10th)</div>
           <div class="edu-school">
             Zilla Parishad High School, Piler · Board of Secondary Education, AP
@@ -547,25 +557,25 @@
     <section class="certifications">
       <div class="section-tag">Recognition</div>
       <h2>Certifications &amp; Achievements</h2>
-      <div class="certs-grid fade-in">
+      <div class="certs-grid animate from-bottom" style="--delay:0.1s">
         <div class="cert-badge">
-          <div class="cert-icon" style="background: #fff0f0">🏆</div>
+          <div class="cert-icon">🏆</div>
           SQL Mastery — HackerRank
         </div>
         <div class="cert-badge">
-          <div class="cert-icon" style="background: #fff8e0">⭐</div>
+          <div class="cert-icon">⭐</div>
           ET Campus Stars Challenger 2022–23
         </div>
         <div class="cert-badge">
-          <div class="cert-icon" style="background: #f0fff4">☕</div>
+          <div class="cert-icon">☕</div>
           Java Certification — Besant Technologies
         </div>
         <div class="cert-badge">
-          <div class="cert-icon" style="background: #f0f8ff">🗄️</div>
+          <div class="cert-icon">🗄️</div>
           MySQL Certification — Besant Technologies
         </div>
         <div class="cert-badge">
-          <div class="cert-icon" style="background: #f5f0ff">🎨</div>
+          <div class="cert-icon">🎨</div>
           Front-End Development — Besant Technologies
         </div>
       </div>
@@ -573,14 +583,14 @@
 
     <!-- CONTACT -->
     <section class="contact" id="contact">
-      <div class="section-tag" style="justify-content: center">
+      <div class="section-tag animate from-right" style="justify-content: center ;--delay:0.1s">
         Let's Connect
       </div>
-      <h2>Open to new opportunities</h2>
-      <p class="contact-sub">
+      <h2 class="animate from-right" style="--delay:0.1s">Open to new opportunities</h2>
+      <p class="contact-sub  animate from-right" style="--delay:0.1s">
         Looking for full-stack roles where I can build, ship, and grow.
       </p>
-      <div class="contact-links">
+      <div class="contact-links animate zoom-in" style="--delay:0.1s">
         <a href="mailto:shaikrehana248@gmail.com" class="contact-link"
           >✉️ shaikrehana248@gmail.com</a
         >
@@ -608,20 +618,35 @@
     </footer>
 
     <script>
+      let lastScrollY = window.scrollY;
+
       const observer = new IntersectionObserver(
         (entries) => {
           entries.forEach((entry) => {
+            const currentScrollY = window.scrollY;
+            const goingDown = currentScrollY > lastScrollY;
+
             if (entry.isIntersecting) {
               entry.target.classList.add("visible");
+
+              // direction class
+              entry.target.classList.remove("scroll-up", "scroll-down");
+              entry.target.classList.add(
+                goingDown ? "scroll-down" : "scroll-up",
+              );
             }
+
+            lastScrollY = currentScrollY;
           });
         },
-        { threshold: 0.1 },
+        {
+          threshold: 0.15,
+        },
       );
 
-      document
-        .querySelectorAll(".fade-in")
-        .forEach((el) => observer.observe(el));
+      document.querySelectorAll(".animate").forEach((el) => {
+        observer.observe(el);
+      });
     </script>
   </body>
 </html>
