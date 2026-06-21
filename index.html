@@ -11,10 +11,14 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="intro-locked">
-
     <!-- ════════ INTRO: girl at her desk (monitor + keyboard) + speech bubble ════════ -->
     <div class="intro-overlay" id="introOverlay">
-      <svg class="intro-scene" id="girlScene" viewBox="0 0 340 340" xmlns="http://www.w3.org/2000/svg">
+      <svg
+        class="intro-scene"
+        id="girlScene"
+        viewBox="0 0 340 340"
+        xmlns="http://www.w3.org/2000/svg"
+      >
         <defs>
           <linearGradient id="skinGrad" x1="0" y1="0" x2="0" y2="1">
             <stop offset="0%" stop-color="#ffd9b3" />
@@ -39,7 +43,14 @@
         </defs>
 
         <!-- desk -->
-        <rect x="14" y="262" width="312" height="16" rx="5" fill="url(#deskGrad)" />
+        <rect
+          x="14"
+          y="262"
+          width="312"
+          height="16"
+          rx="5"
+          fill="url(#deskGrad)"
+        />
         <rect x="34" y="278" width="12" height="40" fill="#43291b" />
         <rect x="294" y="278" width="12" height="40" fill="#43291b" />
 
@@ -51,26 +62,108 @@
         <rect x="104" y="58" width="132" height="100" rx="10" fill="#1f2030" />
         <rect x="113" y="67" width="114" height="82" rx="5" fill="#11131c" />
         <circle cx="170" cy="62.5" r="2" fill="#3a3a52" />
-        <rect class="code-line l1" x="122" y="78" width="50" height="6" rx="3" fill="#00c6ff" />
-        <rect class="code-line l2" x="122" y="92" width="74" height="6" rx="3" fill="#ff5c8a" />
-        <rect class="code-line l3" x="122" y="106" width="40" height="6" rx="3" fill="#7c5cff" />
-        <rect class="code-line l1" x="122" y="120" width="60" height="6" rx="3" fill="#00c6ff" />
-        <rect class="code-line l2" x="122" y="134" width="30" height="6" rx="3" fill="#ff5c8a" />
-        <rect class="cursor-blink" x="155" y="120" width="7" height="6" fill="#fff" />
-        <g class="screen-glow"><rect x="113" y="67" width="114" height="82" rx="5" fill="#7c5cff" opacity="0.06" /></g>
+        <rect
+          class="code-line l1"
+          x="122"
+          y="78"
+          width="50"
+          height="6"
+          rx="3"
+          fill="#00c6ff"
+        />
+        <rect
+          class="code-line l2"
+          x="122"
+          y="92"
+          width="74"
+          height="6"
+          rx="3"
+          fill="#ff5c8a"
+        />
+        <rect
+          class="code-line l3"
+          x="122"
+          y="106"
+          width="40"
+          height="6"
+          rx="3"
+          fill="#7c5cff"
+        />
+        <rect
+          class="code-line l1"
+          x="122"
+          y="120"
+          width="60"
+          height="6"
+          rx="3"
+          fill="#00c6ff"
+        />
+        <rect
+          class="code-line l2"
+          x="122"
+          y="134"
+          width="30"
+          height="6"
+          rx="3"
+          fill="#ff5c8a"
+        />
+        <rect
+          class="cursor-blink"
+          x="155"
+          y="120"
+          width="7"
+          height="6"
+          fill="#fff"
+        />
+        <g class="screen-glow">
+          <rect
+            x="113"
+            y="67"
+            width="114"
+            height="82"
+            rx="5"
+            fill="#7c5cff"
+            opacity="0.06"
+          />
+        </g>
 
         <!-- girl -->
         <g class="girl-group">
           <!-- ponytail -->
-          <path d="M214 130 Q246 150 234 200 Q228 222 210 214 Q226 178 208 144 Z" fill="url(#hairGrad)" />
-          <path d="M210 150 Q224 178 214 206" stroke="#4a3f70" stroke-width="2" fill="none" opacity="0.5" />
+          <path
+            d="M214 130 Q246 150 234 200 Q228 222 210 214 Q226 178 208 144 Z"
+            fill="url(#hairGrad)"
+          />
+          <path
+            d="M210 150 Q224 178 214 206"
+            stroke="#4a3f70"
+            stroke-width="2"
+            fill="none"
+            opacity="0.5"
+          />
 
           <!-- shoulders / shirt -->
-          <path d="M128 268 Q126 206 170 200 Q214 206 212 268 Z" fill="url(#shirtGrad)" />
-          <path d="M150 206 L158 222 L170 210 L182 222 L190 206" stroke="#5635c4" stroke-width="3" fill="none" stroke-linecap="round" />
+          <path
+            d="M128 268 Q126 206 170 200 Q214 206 212 268 Z"
+            fill="url(#shirtGrad)"
+          />
+          <path
+            d="M150 206 L158 222 L170 210 L182 222 L190 206"
+            stroke="#5635c4"
+            stroke-width="3"
+            fill="none"
+            stroke-linecap="round"
+          />
 
           <!-- neck -->
-          <rect x="160" y="186" width="20" height="20" rx="7" fill="url(#skinGrad)" />
+          <rect
+            x="160"
+            y="186"
+            width="20"
+            height="20"
+            rx="7"
+            fill="url(#skinGrad)"
+          />
 
           <!-- head -->
           <ellipse cx="170" cy="160" rx="40" ry="42" fill="url(#skinGrad)" />
@@ -80,13 +173,34 @@
           <circle cx="129" cy="171" r="2.2" fill="#ffd76b" />
 
           <!-- hair top + bangs -->
-          <path d="M128 152 Q124 100 170 96 Q218 100 212 152 Q210 116 170 112 Q132 116 130 152 Z" fill="url(#hairGrad)" />
-          <path d="M132 140 Q140 118 156 114 Q142 130 140 152 Z" fill="url(#hairGrad)" />
-          <path d="M208 140 Q200 118 184 114 Q198 130 200 152 Z" fill="url(#hairGrad)" />
+          <path
+            d="M128 152 Q124 100 170 96 Q218 100 212 152 Q210 116 170 112 Q132 116 130 152 Z"
+            fill="url(#hairGrad)"
+          />
+          <path
+            d="M132 140 Q140 118 156 114 Q142 130 140 152 Z"
+            fill="url(#hairGrad)"
+          />
+          <path
+            d="M208 140 Q200 118 184 114 Q198 130 200 152 Z"
+            fill="url(#hairGrad)"
+          />
 
           <!-- eyebrows -->
-          <path d="M148 148 Q156 143 164 147" stroke="#2b2740" stroke-width="2.4" fill="none" stroke-linecap="round" />
-          <path d="M176 147 Q184 143 192 148" stroke="#2b2740" stroke-width="2.4" fill="none" stroke-linecap="round" />
+          <path
+            d="M148 148 Q156 143 164 147"
+            stroke="#2b2740"
+            stroke-width="2.4"
+            fill="none"
+            stroke-linecap="round"
+          />
+          <path
+            d="M176 147 Q184 143 192 148"
+            stroke="#2b2740"
+            stroke-width="2.4"
+            fill="none"
+            stroke-linecap="round"
+          />
 
           <!-- eyes -->
           <g class="girl-eyes">
@@ -97,434 +211,907 @@
           </g>
 
           <!-- blush -->
-          <ellipse cx="146" cy="174" rx="6" ry="3.4" fill="#ff5c8a" opacity="0.3" />
-          <ellipse cx="194" cy="174" rx="6" ry="3.4" fill="#ff5c8a" opacity="0.3" />
+          <ellipse
+            cx="146"
+            cy="174"
+            rx="6"
+            ry="3.4"
+            fill="#ff5c8a"
+            opacity="0.3"
+          />
+          <ellipse
+            cx="194"
+            cy="174"
+            rx="6"
+            ry="3.4"
+            fill="#ff5c8a"
+            opacity="0.3"
+          />
 
           <!-- nose + smile -->
-          <path d="M168 164 Q170 170 168 172" stroke="#d99b6c" stroke-width="1.6" fill="none" stroke-linecap="round" />
-          <path d="M154 180 Q170 192 186 180" stroke="#9c4a3f" stroke-width="2.6" fill="none" stroke-linecap="round" />
+          <path
+            d="M168 164 Q170 170 168 172"
+            stroke="#d99b6c"
+            stroke-width="1.6"
+            fill="none"
+            stroke-linecap="round"
+          />
+          <path
+            d="M154 180 Q170 192 186 180"
+            stroke="#9c4a3f"
+            stroke-width="2.6"
+            fill="none"
+            stroke-linecap="round"
+          />
 
           <!-- arms reaching to keyboard -->
-          <path class="hand-left" d="M138 224 Q124 232 128 248 L150 248 Q150 232 144 224 Z" fill="url(#shirtGrad)" />
-          <path class="hand-right" d="M202 224 Q216 232 212 248 L190 248 Q190 232 196 224 Z" fill="url(#shirtGrad)" />
+          <path
+            class="hand-left"
+            d="M138 224 Q124 232 128 248 L150 248 Q150 232 144 224 Z"
+            fill="url(#shirtGrad)"
+          />
+          <path
+            class="hand-right"
+            d="M202 224 Q216 232 212 248 L190 248 Q190 232 196 224 Z"
+            fill="url(#shirtGrad)"
+          />
         </g>
 
         <!-- keyboard, in front of her hands -->
-        <rect x="118" y="238" width="104" height="26" rx="6" fill="url(#keyGrad)" />
-        <g opacity="0.5" stroke="#9a9ab0" stroke-width="2" stroke-dasharray="4 3" stroke-linecap="round">
+        <rect
+          x="118"
+          y="238"
+          width="104"
+          height="26"
+          rx="6"
+          fill="url(#keyGrad)"
+        />
+        <g
+          opacity="0.5"
+          stroke="#9a9ab0"
+          stroke-width="2"
+          stroke-dasharray="4 3"
+          stroke-linecap="round"
+        >
           <line x1="124" y1="246" x2="216" y2="246" />
           <line x1="124" y1="253" x2="216" y2="253" />
           <line x1="124" y1="260" x2="216" y2="260" />
         </g>
         <g class="hand-left">
-          <rect x="128" y="239" width="6" height="10" rx="2" fill="url(#skinGrad)" />
-          <rect x="137" y="239" width="6" height="10" rx="2" fill="url(#skinGrad)" />
+          <rect
+            x="128"
+            y="239"
+            width="6"
+            height="10"
+            rx="2"
+            fill="url(#skinGrad)"
+          />
+          <rect
+            x="137"
+            y="239"
+            width="6"
+            height="10"
+            rx="2"
+            fill="url(#skinGrad)"
+          />
         </g>
         <g class="hand-right">
-          <rect x="197" y="239" width="6" height="10" rx="2" fill="url(#skinGrad)" />
-          <rect x="206" y="239" width="6" height="10" rx="2" fill="url(#skinGrad)" />
+          <rect
+            x="197"
+            y="239"
+            width="6"
+            height="10"
+            rx="2"
+            fill="url(#skinGrad)"
+          />
+          <rect
+            x="206"
+            y="239"
+            width="6"
+            height="10"
+            rx="2"
+            fill="url(#skinGrad)"
+          />
         </g>
 
         <!-- mouse -->
-        <rect x="234" y="244" width="16" height="22" rx="8" fill="url(#keyGrad)" />
+        <rect
+          x="234"
+          y="244"
+          width="16"
+          height="22"
+          rx="8"
+          fill="url(#keyGrad)"
+        />
       </svg>
 
-      <div class="speech-bubble" id="speechBubble"><span id="bubbleText"></span><span class="bubble-cursor" id="bubbleCursor"></span></div>
+      <div class="speech-bubble" id="speechBubble">
+        <span id="bubbleText"></span
+        ><span class="bubble-cursor" id="bubbleCursor"></span>
+      </div>
 
-      <button class="intro-enter-btn" id="introEnterBtn">View My Portfolio →</button>
+      <button class="intro-enter-btn" id="introEnterBtn">
+        View My Portfolio →
+      </button>
     </div>
 
     <div id="site-content">
-    <!-- NAV -->
-    <nav>
-      <div class="nav-logo">Rehana S</div>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+      <!-- NAV -->
+      <nav>
+        <div class="nav-logo">Rehana S</div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
 
-    <!-- HERO -->
-    <section class="hero" id="home">
-      <div class="hero-left animate from-left" style="--delay: 0.1s">
-        <div class="hero-tag">Available for opportunities</div>
-        <h1>Rehana S</h1>
-        <p class="hero-desc">
-          Software Developer specializing in Java & React.js — crafting scalable
-          microservices and intuitive frontends with 2+ years of real-world
-          production experience.
+      <!-- HERO -->
+      <section class="hero" id="home">
+        <div class="hero-left animate from-left" style="--delay: 0.1s">
+          <div class="hero-tag">Available for opportunities</div>
+          <h1>Rehana S</h1>
+          <p class="hero-desc">
+            Software Developer specializing in Java & React.js — crafting
+            scalable microservices and intuitive frontends with 2+ years of
+            real-world production experience.
+          </p>
+          <div class="hero-ctas">
+            <a href="#projects" class="btn-primary">View Projects →</a>
+            <a href="#contact" class="btn-outline">Get in Touch</a>
+          </div>
+        </div>
+        <div class="hero-right animate from-right" style="--delay: 0.1s">
+          <div class="hero-visual">
+            <div class="hero-circle"></div>
+            <div class="hero-avatar">SR</div>
+            <div class="hero-floating-card card-1">
+              ☕ Spring Boot<span>Microservices</span>
+            </div>
+            <div class="hero-floating-card card-2">
+              ⚛️ React.js<span>Hooks & Routing</span>
+            </div>
+            <div class="hero-floating-card card-3">
+              🔒 JWT Auth<span>Spring Security</span>
+            </div>
+            <div class="hero-floating-card card-4">
+              🗄️ MySQL<span>+ MongoDB</span>
+            </div>
+            <div class="hero-floating-card card-5">
+              ⚡ Redis<span>Caching Layer</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-num">2<em>+</em></div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">6<em>+</em></div>
+            <div class="stat-label">Projects Built</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">80<em>%</em></div>
+            <div class="stat-label">B.Tech GPA</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="about" id="about">
+        <div class="section-tag">Who I Am</div>
+        <h2>Passionate about building<br />production-grade systems</h2>
+        <div class="about-grid">
+          <div class="about-text animate from-left" style="--delay: 0.1s">
+            <p>
+              I'm a Full Stack Developer with 2 years of hands-on experience
+              turning ideas into scalable, secure web applications. From
+              architecting microservices to crafting pixel-perfect frontends, I
+              thrive across the stack.
+            </p>
+            <p>
+              Currently building at Shiksha Infotech, I've shipped real-world
+              products like JobBox.one (a job platform) and SignBook.co (a
+              digital signature platform), handling everything from JWT security
+              to Ubuntu server deployments.
+            </p>
+            <p>
+              I'm passionate about clean architecture, performance optimization,
+              and continuously exploring emerging tools — from blockchain to
+              AI-powered web scraping.
+            </p>
+          </div>
+          <div class="about-highlights">
+            <div
+              class="highlight-card animate from-right"
+              style="--delay: 0.1s"
+            >
+              <div class="highlight-icon">🏗️</div>
+              <div>
+                <h4>Microservices Architecture</h4>
+                <p>
+                  Eureka, API Gateway, Feign Client, Circuit Breaker — designed
+                  for resilience and scale.
+                </p>
+              </div>
+            </div>
+            <div
+              class="highlight-card animate from-right"
+              style="--delay: 0.2s"
+            >
+              <div class="highlight-icon">🔐</div>
+              <div>
+                <h4>Security-First Development</h4>
+                <p>
+                  JWT authentication, Spring Security, Firebase Google Login
+                  integration.
+                </p>
+              </div>
+            </div>
+            <div
+              class="highlight-card animate from-right"
+              style="--delay: 0.3s"
+            >
+              <div class="highlight-icon">⚡</div>
+              <div>
+                <h4>Performance Engineering</h4>
+                <p>
+                  Redis & Caffeine caching, Java 8 Streams, efficient data
+                  processing patterns.
+                </p>
+              </div>
+            </div>
+            <div
+              class="highlight-card animate from-right"
+              style="--delay: 0.4s"
+            >
+              <div class="highlight-icon">🚀</div>
+              <div>
+                <h4>Full Deployment Ownership</h4>
+                <p>
+                  FileZilla, PM2, Ubuntu CLI — I ship and monitor production
+                  systems end-to-end.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS — card-free train-track journey -->
+      <section class="skills-section" id="skills">
+        <div class="section-tag">Technical Arsenal</div>
+        <h2>Skills &amp; Technologies</h2>
+        <p class="skills-intro">
+          My full-stack toolkit, laid out as a journey — from backend
+          foundations through to deployment.
         </p>
-        <div class="hero-ctas">
-          <a href="#projects" class="btn-primary">View Projects →</a>
-          <a href="#contact" class="btn-outline">Get in Touch</a>
-        </div>
-      </div>
-      <div class="hero-right animate from-right" style="--delay: 0.1s">
-        <div class="hero-visual">
-          <div class="hero-circle"></div>
-          <div class="hero-avatar">SR</div>
-          <div class="hero-floating-card card-1">☕ Spring Boot<span>Microservices</span></div>
-          <div class="hero-floating-card card-2">⚛️ React.js<span>Hooks & Routing</span></div>
-          <div class="hero-floating-card card-3">🔒 JWT Auth<span>Spring Security</span></div>
-          <div class="hero-floating-card card-4">🗄️ MySQL<span>+ MongoDB</span></div>
-          <div class="hero-floating-card card-5">⚡ Redis<span>Caching Layer</span></div>
-        </div>
-      </div>
-      <div class="hero-stats">
-        <div class="stat-item">
-          <div class="stat-num">2<em>+</em></div>
-          <div class="stat-label">Years Experience</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-num">6<em>+</em></div>
-          <div class="stat-label">Projects Built</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-num">80<em>%</em></div>
-          <div class="stat-label">B.Tech GPA</div>
-        </div>
-      </div>
-    </section>
 
-    <!-- ABOUT -->
-    <section class="about" id="about">
-      <div class="section-tag">Who I Am</div>
-      <h2>Passionate about building<br />production-grade systems</h2>
-      <div class="about-grid">
-        <div class="about-text animate from-left" style="--delay: 0.1s">
-          <p>I'm a Full Stack Developer with 2 years of hands-on experience turning ideas into scalable, secure web applications. From architecting microservices to crafting pixel-perfect frontends, I thrive across the stack.</p>
-          <p>Currently building at Shiksha Infotech, I've shipped real-world products like JobBox.one (a job platform) and SignBook.co (a digital signature platform), handling everything from JWT security to Ubuntu server deployments.</p>
-          <p>I'm passionate about clean architecture, performance optimization, and continuously exploring emerging tools — from blockchain to AI-powered web scraping.</p>
-        </div>
-        <div class="about-highlights">
-          <div class="highlight-card animate from-right" style="--delay: 0.1s">
-            <div class="highlight-icon">🏗️</div>
-            <div><h4>Microservices Architecture</h4><p>Eureka, API Gateway, Feign Client, Circuit Breaker — designed for resilience and scale.</p></div>
-          </div>
-          <div class="highlight-card animate from-right" style="--delay: 0.2s">
-            <div class="highlight-icon">🔐</div>
-            <div><h4>Security-First Development</h4><p>JWT authentication, Spring Security, Firebase Google Login integration.</p></div>
-          </div>
-          <div class="highlight-card animate from-right" style="--delay: 0.3s">
-            <div class="highlight-icon">⚡</div>
-            <div><h4>Performance Engineering</h4><p>Redis & Caffeine caching, Java 8 Streams, efficient data processing patterns.</p></div>
-          </div>
-          <div class="highlight-card animate from-right" style="--delay: 0.4s">
-            <div class="highlight-icon">🚀</div>
-            <div><h4>Full Deployment Ownership</h4><p>FileZilla, PM2, Ubuntu CLI — I ship and monitor production systems end-to-end.</p></div>
-          </div>
-        </div>
-      </div>
-    </section>
+        <div class="skills-track">
+          <svg
+            class="track-line"
+            viewBox="0 0 100 600"
+            preserveAspectRatio="none"
+          >
+            <defs>
+              <linearGradient id="trackGradient" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#7c5cff" />
+                <stop offset="50%" stop-color="#00c6ff" />
+                <stop offset="100%" stop-color="#ff5c8a" />
+              </linearGradient>
+            </defs>
+            <path
+              d="M20,50 C20,100 80,100 80,150 C80,200 20,200 20,250 C20,300 80,300 80,350 C80,400 20,400 20,450 C20,500 80,500 80,550"
+            />
+          </svg>
+          <div class="train-icon">🚆</div>
 
-    <!-- SKILLS — card-free train-track journey -->
-    <section class="skills-section" id="skills">
-      <div class="section-tag">Technical Arsenal</div>
-      <h2>Skills &amp; Technologies</h2>
-      <p class="skills-intro">My full-stack toolkit, laid out as a journey — from backend foundations through to deployment.</p>
-
-      <div class="skills-track">
-        <svg class="track-line" viewBox="0 0 100 600" preserveAspectRatio="none">
-          <defs>
-            <linearGradient id="trackGradient" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0%" stop-color="#7c5cff" />
-              <stop offset="50%" stop-color="#00c6ff" />
-              <stop offset="100%" stop-color="#ff5c8a" />
-            </linearGradient>
-          </defs>
-          <path d="M20,50 C20,100 80,100 80,150 C80,200 20,200 20,250 C20,300 80,300 80,350 C80,400 20,400 20,450 C20,500 80,500 80,550" />
-        </svg>
-        <div class="train-icon">🚆</div>
-
-        <div class="station station-left animate zoom-in" style="--delay:.1s; top:6%;">
-          <div class="station-dot">☕</div>
-          <h3>Backend Development</h3>
-          <div class="skill-tags">
-            <span class="skill-tag tag-accent"><span class="ti">☕</span>Java 8</span>
-            <span class="skill-tag tag-accent"><span class="ti">🌱</span>Spring Boot</span>
-            <span class="skill-tag tag-accent"><span class="ti">🧩</span>Microservices</span>
-            <span class="skill-tag tag-accent"><span class="ti">🔗</span>REST APIs</span>
-            <span class="skill-tag tag-accent"><span class="ti">📦</span>Spring Data JPA</span>
-            <span class="skill-tag tag-accent"><span class="ti">🐝</span>Hibernate</span>
-            <span class="skill-tag tag-accent"><span class="ti">λ</span>Streams & Lambda</span>
-          </div>
-        </div>
-
-        <div class="station station-right animate zoom-in" style="--delay:.1s; top:23%;">
-          <div class="station-dot">⚛️</div>
-          <h3>Frontend Development</h3>
-          <div class="skill-tags">
-            <span class="skill-tag tag-blue"><span class="ti">⚛️</span>React.js</span>
-            <span class="skill-tag tag-blue"><span class="ti">🪝</span>Hooks</span>
-            <span class="skill-tag tag-blue"><span class="ti">🧭</span>React Router</span>
-            <span class="skill-tag tag-blue"><span class="ti">🟨</span>JavaScript</span>
-            <span class="skill-tag tag-blue"><span class="ti">📄</span>HTML5</span>
-            <span class="skill-tag tag-blue"><span class="ti">🎨</span>CSS3</span>
-            <span class="skill-tag tag-blue"><span class="ti">🅱️</span>Bootstrap</span>
-          </div>
-        </div>
-
-        <div class="station station-left animate zoom-in" style="--delay:.1s; top:40%;">
-          <div class="station-dot">🗄️</div>
-          <h3>Database &amp; Caching</h3>
-          <div class="skill-tags">
-            <span class="skill-tag tag-teal"><span class="ti">🐬</span>MySQL</span>
-            <span class="skill-tag tag-teal"><span class="ti">🍃</span>MongoDB</span>
-            <span class="skill-tag tag-teal"><span class="ti">⚡</span>Redis</span>
-            <span class="skill-tag tag-teal"><span class="ti">☕</span>Caffeine Cache</span>
-            <span class="skill-tag tag-teal"><span class="ti">🔍</span>Joins & Subqueries</span>
-          </div>
-        </div>
-
-        <div class="station station-right animate zoom-in" style="--delay:.1s; top:57%;">
-          <div class="station-dot">🔒</div>
-          <h3>Security &amp; Auth</h3>
-          <div class="skill-tags">
-            <span class="skill-tag tag-accent"><span class="ti">🔑</span>JWT</span>
-            <span class="skill-tag tag-accent"><span class="ti">🛡️</span>Spring Security</span>
-            <span class="skill-tag tag-accent"><span class="ti">🔥</span>Firebase Auth</span>
-            <span class="skill-tag tag-accent"><span class="ti">🔓</span>Google Login</span>
-          </div>
-        </div>
-
-        <div class="station station-left animate zoom-in" style="--delay:.1s; top:74%;">
-          <div class="station-dot">🏛️</div>
-          <h3>Architecture &amp; Design</h3>
-          <div class="skill-tags">
-            <span class="skill-tag tag-dark"><span class="ti">🧭</span>Eureka Discovery</span>
-            <span class="skill-tag tag-dark"><span class="ti">🚪</span>API Gateway</span>
-            <span class="skill-tag tag-dark"><span class="ti">🤝</span>Feign Client</span>
-            <span class="skill-tag tag-dark"><span class="ti">🧯</span>Circuit Breaker</span>
-            <span class="skill-tag tag-dark"><span class="ti">♟️</span>Singleton Pattern</span>
-          </div>
-        </div>
-
-        <div class="station station-right animate zoom-in" style="--delay:.1s; top:91%;">
-          <div class="station-dot">🛠️</div>
-          <h3>Tools &amp; DevOps</h3>
-          <div class="skill-tags">
-            <span class="skill-tag tag-light"><span class="ti">🐙</span>Git</span>
-            <span class="skill-tag tag-light"><span class="ti">📦</span>Maven</span>
-            <span class="skill-tag tag-light"><span class="ti">📮</span>Postman</span>
-            <span class="skill-tag tag-light"><span class="ti">📁</span>FileZilla</span>
-            <span class="skill-tag tag-light"><span class="ti">🔁</span>PM2</span>
-            <span class="skill-tag tag-light"><span class="ti">🐧</span>Ubuntu/Linux</span>
-            <span class="skill-tag tag-light"><span class="ti">🤖</span>Gen AI</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- EXPERIENCE -->
-    <section class="experience" id="experience">
-      <div class="section-tag">Career</div>
-      <h2>Professional Experience</h2>
-      <div class="exp-timeline">
-        <div class="exp-item animate from-right" style="--delay: 0.1s">
-          <div class="exp-meta">
-            <span class="exp-company">Shiksha Infotech Pvt Ltd</span>
-            <span class="exp-period">Mar 2024 – Present</span>
-          </div>
-          <div class="exp-role">Java Full Stack Developer</div>
-          <ul class="exp-points">
-            <li>Architected and shipped JobBox.one — a job platform using Spring Boot microservices, JWT auth, and React.js frontend</li>
-            <li>Built SignBook.co — a digital signature platform with Eureka service discovery, API Gateway, Circuit Breaker, and MongoDB chat module</li>
-            <li>Implemented Redis &amp; Caffeine caching strategies, significantly improving application response times</li>
-            <li>Integrated third-party AI scraping tools (Adzuna, Zapier) and Firebase Google Login</li>
-            <li>Deployed applications on Ubuntu servers using FileZilla &amp; monitored with PM2</li>
-            <li>Conducted R&amp;D on CMS platforms (Strapi, Storyblok, WordPress) and UI tools (Loveable, Base44)</li>
-            <li>Delivered technical demos to clients and collaborated directly on requirements</li>
-          </ul>
-        </div>
-        <div class="exp-item animate from-right" style="--delay: 0.1s">
-          <div class="exp-meta">
-            <span class="exp-company">Besant Technologies</span>
-            <span class="exp-period">Jul 2023 – Feb 2024</span>
-          </div>
-          <div class="exp-role">Java Backend Intern</div>
-          <ul class="exp-points">
-            <li>Built CRUD applications using JDBC and Servlets, strengthening core Java OOP fundamentals</li>
-            <li>Practiced Multithreading, Collection Frameworks, and database connectivity patterns</li>
-            <li>Gained understanding of end-to-end application flow in production-like environments</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- PROJECTS — card-free editorial rows -->
-    <section class="projects" id="projects">
-      <div class="section-tag">Portfolio</div>
-      <h2>Projects I've Built</h2>
-      <div class="projects-list">
-
-        <article class="project-row animate from-left" style="--delay:.1s">
-          <div class="project-visual banner-jobbox"><span class="visual-icon">💼</span><span class="visual-label">Professional Work</span></div>
-          <div class="project-info">
-            <div class="project-category">💼 Job Platform · Production</div>
-            <h3>JobBox.one</h3>
-            <p class="project-desc">End-to-end job portal with microservices backend, JWT security, AI-based job scraping via Adzuna & Zapier, Redis/Caffeine caching, and SEO sitemap generation. Deployed live on Ubuntu.</p>
-            <div class="project-tech">
-              <span class="tech-pill">☕ Spring Boot</span>
-              <span class="tech-pill">🧩 Microservices</span>
-              <span class="tech-pill">⚛️ React.js</span>
-              <span class="tech-pill">🔑 JWT</span>
-              <span class="tech-pill">⚡ Redis</span>
-              <span class="tech-pill">🐬 MySQL</span>
+          <div
+            class="station station-left animate zoom-in"
+            style="--delay: 0.1s; top: 6%"
+          >
+            <div class="station-dot">☕</div>
+            <h3>Backend Development</h3>
+            <div class="skill-tags">
+              <span class="skill-tag tag-accent"
+                ><span class="ti">☕</span>Java 8</span
+              >
+              <span class="skill-tag tag-accent"
+                ><span class="ti">🌱</span>Spring Boot</span
+              >
+              <span class="skill-tag tag-accent"
+                ><span class="ti">🧩</span>Microservices</span
+              >
+              <span class="skill-tag tag-accent"
+                ><span class="ti">🔗</span>REST APIs</span
+              >
+              <span class="skill-tag tag-accent"
+                ><span class="ti">📦</span>Spring Data JPA</span
+              >
+              <span class="skill-tag tag-accent"
+                ><span class="ti">🐝</span>Hibernate</span
+              >
+              <span class="skill-tag tag-accent"
+                ><span class="ti">λ</span>Streams & Lambda</span
+              >
             </div>
           </div>
-        </article>
-        <div class="project-divider"></div>
 
-        <article class="project-row reverse animate from-right" style="--delay:.1s">
-          <div class="project-visual banner-signbook"><span class="visual-icon">✍️</span><span class="visual-label">Professional Work</span></div>
-          <div class="project-info">
-            <div class="project-category">✍️ Digital Signature · Production</div>
-            <h3>SignBook.co</h3>
-            <p class="project-desc">Digital signature platform built on microservices with Eureka discovery, API Gateway, Feign Client inter-service communication, Circuit Breaker fault tolerance, MongoDB-powered real-time chat, and payment gateway integration (in progress).</p>
-            <div class="project-tech">
-              <span class="tech-pill">🧭 Eureka</span>
-              <span class="tech-pill">🚪 API Gateway</span>
-              <span class="tech-pill">🍃 MongoDB</span>
-              <span class="tech-pill">🤝 Feign Client</span>
-              <span class="tech-pill">🧯 Circuit Breaker</span>
-              <span class="tech-pill">⚛️ React.js</span>
+          <div
+            class="station station-right animate zoom-in"
+            style="--delay: 0.1s; top: 23%"
+          >
+            <div class="station-dot">⚛️</div>
+            <h3>Frontend Development</h3>
+            <div class="skill-tags">
+              <span class="skill-tag tag-blue"
+                ><span class="ti">⚛️</span>React.js</span
+              >
+              <span class="skill-tag tag-blue"
+                ><span class="ti">🪝</span>Hooks</span
+              >
+              <span class="skill-tag tag-blue"
+                ><span class="ti">🧭</span>React Router</span
+              >
+              <span class="skill-tag tag-blue"
+                ><span class="ti">🟨</span>JavaScript</span
+              >
+              <span class="skill-tag tag-blue"
+                ><span class="ti">📄</span>HTML5</span
+              >
+              <span class="skill-tag tag-blue"
+                ><span class="ti">🎨</span>CSS3</span
+              >
+              <span class="skill-tag tag-blue"
+                ><span class="ti">🅱️</span>Bootstrap</span
+              >
             </div>
           </div>
-        </article>
-        <div class="project-divider"></div>
 
-        <article class="project-row animate from-left" style="--delay:.1s">
-          <div class="project-visual banner-hotel"><span class="visual-icon">🏨</span><span class="visual-label">Academic Project</span></div>
-          <div class="project-info">
-            <div class="project-category">🏨 Full Stack · Academic</div>
-            <h3>Hotel Booking Web App</h3>
-            <p class="project-desc">Full-stack hotel booking system with Spring Security role management, an Admin Dashboard for inventory, and a smooth React.js experience for browsing and reserving rooms.</p>
-            <div class="project-tech">
-              <span class="tech-pill">☕ Spring Boot</span>
-              <span class="tech-pill">⚛️ React.js</span>
-              <span class="tech-pill">🐬 MySQL</span>
-              <span class="tech-pill">🛡️ Spring Security</span>
+          <div
+            class="station station-left animate zoom-in"
+            style="--delay: 0.1s; top: 40%"
+          >
+            <div class="station-dot">🗄️</div>
+            <h3>Database &amp; Caching</h3>
+            <div class="skill-tags">
+              <span class="skill-tag tag-teal"
+                ><span class="ti">🐬</span>MySQL</span
+              >
+              <span class="skill-tag tag-teal"
+                ><span class="ti">🍃</span>MongoDB</span
+              >
+              <span class="skill-tag tag-teal"
+                ><span class="ti">⚡</span>Redis</span
+              >
+              <span class="skill-tag tag-teal"
+                ><span class="ti">☕</span>Caffeine Cache</span
+              >
+              <span class="skill-tag tag-teal"
+                ><span class="ti">🔍</span>Joins & Subqueries</span
+              >
             </div>
           </div>
-        </article>
-        <div class="project-divider"></div>
 
-        <article class="project-row reverse animate from-right" style="--delay:.1s">
-          <div class="project-visual banner-blockchain"><span class="visual-icon">⛓️</span><span class="visual-label">Major Project</span></div>
-          <div class="project-info">
-            <div class="project-category">🏆 Blockchain · Major Academic Project</div>
-            <h3>Blockchain to Reduce Fraud in Banking Transactions</h3>
-            <p class="project-desc">A transparent, tamper-resistant record-keeping system on the ICP Blockchain (Dfinity) to combat fund misuse. Built decentralized ledgers using Motoko and JavaScript that keep every transaction immutable, auditable, and verifiable.</p>
-            <div class="project-tech">
-              <span class="tech-pill">⛓️ ICP Blockchain</span>
-              <span class="tech-pill">🔵 Motoko</span>
-              <span class="tech-pill">🟨 JavaScript</span>
-              <span class="tech-pill">📜 Smart Contracts</span>
+          <div
+            class="station station-right animate zoom-in"
+            style="--delay: 0.1s; top: 57%"
+          >
+            <div class="station-dot">🔒</div>
+            <h3>Security &amp; Auth</h3>
+            <div class="skill-tags">
+              <span class="skill-tag tag-accent"
+                ><span class="ti">🔑</span>JWT</span
+              >
+              <span class="skill-tag tag-accent"
+                ><span class="ti">🛡️</span>Spring Security</span
+              >
+              <span class="skill-tag tag-accent"
+                ><span class="ti">🔥</span>Firebase Auth</span
+              >
+              <span class="skill-tag tag-accent"
+                ><span class="ti">🔓</span>Google Login</span
+              >
             </div>
           </div>
-        </article>
-        <div class="project-divider"></div>
 
-        <article class="project-row animate from-left" style="--delay:.1s">
-          <div class="project-visual banner-rental"><span class="visual-icon">🚗</span><span class="visual-label">Database Project</span></div>
-          <div class="project-info">
-            <div class="project-category">🗄️ SQL Database · Fresher-era</div>
-            <h3>Car Rental Database System</h3>
-            <p class="project-desc">Relational database design for a car rental system — covering complex joins, subqueries, stored procedures, and normalized schema design for efficient fleet and booking management.</p>
-            <div class="project-tech">
-              <span class="tech-pill">🐬 SQL</span>
-              <span class="tech-pill">🔍 Joins &amp; Subqueries</span>
-              <span class="tech-pill">🧱 Schema Design</span>
+          <div
+            class="station station-left animate zoom-in"
+            style="--delay: 0.1s; top: 74%"
+          >
+            <div class="station-dot">🏛️</div>
+            <h3>Architecture &amp; Design</h3>
+            <div class="skill-tags">
+              <span class="skill-tag tag-dark"
+                ><span class="ti">🧭</span>Eureka Discovery</span
+              >
+              <span class="skill-tag tag-dark"
+                ><span class="ti">🚪</span>API Gateway</span
+              >
+              <span class="skill-tag tag-dark"
+                ><span class="ti">🤝</span>Feign Client</span
+              >
+              <span class="skill-tag tag-dark"
+                ><span class="ti">🧯</span>Circuit Breaker</span
+              >
+              <span class="skill-tag tag-dark"
+                ><span class="ti">♟️</span>Singleton Pattern</span
+              >
             </div>
           </div>
-        </article>
-        <div class="project-divider"></div>
 
-        <article class="project-row reverse animate from-right" style="--delay:.1s">
-          <div class="project-visual banner-movies"><span class="visual-icon">🎬</span><span class="visual-label">Fresher Project</span></div>
-          <div class="project-info">
-            <div class="project-category">🎬 Frontend Design · Fresher-era</div>
-            <h3>Movie Poster Project</h3>
-            <p class="project-desc">Creative frontend project designing cinematic movie poster layouts using HTML and CSS — demonstrating strong visual design sense, typography, and responsive grid layouts.</p>
-            <div class="project-tech">
-              <span class="tech-pill">📄 HTML5</span>
-              <span class="tech-pill">🎨 CSS3</span>
-              <span class="tech-pill">📐 Responsive Design</span>
+          <div
+            class="station station-right animate zoom-in"
+            style="--delay: 0.1s; top: 91%"
+          >
+            <div class="station-dot">🛠️</div>
+            <h3>Tools &amp; DevOps</h3>
+            <div class="skill-tags">
+              <span class="skill-tag tag-light"
+                ><span class="ti">🐙</span>Git</span
+              >
+              <span class="skill-tag tag-light"
+                ><span class="ti">📦</span>Maven</span
+              >
+              <span class="skill-tag tag-light"
+                ><span class="ti">📮</span>Postman</span
+              >
+              <span class="skill-tag tag-light"
+                ><span class="ti">📁</span>FileZilla</span
+              >
+              <span class="skill-tag tag-light"
+                ><span class="ti">🔁</span>PM2</span
+              >
+              <span class="skill-tag tag-light"
+                ><span class="ti">🐧</span>Ubuntu/Linux</span
+              >
+              <span class="skill-tag tag-light"
+                ><span class="ti">🤖</span>Gen AI</span
+              >
             </div>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <!-- EDUCATION -->
-    <section class="education" id="education">
-      <div class="section-tag">Academics</div>
-      <h2>Educational Background</h2>
-      <div class="edu-grid">
-        <div class="edu-card animate zoom-in" style="--delay: 0.2s">
-          <div class="edu-degree">B.Tech — Computer Science</div>
-          <div class="edu-school">Sri Venkateswara College of Engineering &amp; Technology (SVCET), Chittoor · JNTUA</div>
-          <div class="edu-stats">
-            <div><div class="edu-stat-num">80%</div><div class="edu-stat-label">Percentage</div></div>
-            <div><div class="edu-stat-num">8.59</div><div class="edu-stat-label">GPA</div></div>
-            <div><div class="edu-stat-num">2023</div><div class="edu-stat-label">Year</div></div>
           </div>
         </div>
-        <div class="edu-card animate zoom-in" style="--delay: 0.1s">
-          <div class="edu-degree">Intermediate (12th)</div>
-          <div class="edu-school">Sri Chaitanya Junior College, Piler · Board of Intermediate Education, AP</div>
-          <div class="edu-stats">
-            <div><div class="edu-stat-num">93%</div><div class="edu-stat-label">Percentage</div></div>
-            <div><div class="edu-stat-num">9.86</div><div class="edu-stat-label">GPA</div></div>
-            <div><div class="edu-stat-num">2019</div><div class="edu-stat-label">Year</div></div>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section class="experience" id="experience">
+        <div class="section-tag">Career</div>
+        <h2>Professional Experience</h2>
+        <div class="exp-timeline">
+          <div class="exp-item animate from-right" style="--delay: 0.1s">
+            <div class="exp-meta">
+              <span class="exp-company">Shiksha Infotech Pvt Ltd</span>
+              <span class="exp-period">Mar 2024 – Present</span>
+            </div>
+            <div class="exp-role">Java Full Stack Developer</div>
+            <ul class="exp-points">
+              <li>
+                Architected and shipped JobBox.one — a job platform using Spring
+                Boot microservices, JWT auth, and React.js frontend
+              </li>
+              <li>
+                Built SignBook.co — a digital signature platform with Eureka
+                service discovery, API Gateway, Circuit Breaker, and MongoDB
+                chat module
+              </li>
+              <li>
+                Implemented Redis &amp; Caffeine caching strategies,
+                significantly improving application response times
+              </li>
+              <li>
+                Integrated third-party AI scraping tools (Adzuna, Zapier) and
+                Firebase Google Login
+              </li>
+              <li>
+                Deployed applications on Ubuntu servers using FileZilla &amp;
+                monitored with PM2
+              </li>
+              <li>
+                Conducted R&amp;D on CMS platforms (Strapi, Storyblok,
+                WordPress) and UI tools (Loveable, Base44)
+              </li>
+              <li>
+                Delivered technical demos to clients and collaborated directly
+                on requirements
+              </li>
+            </ul>
+          </div>
+          <div class="exp-item animate from-right" style="--delay: 0.1s">
+            <div class="exp-meta">
+              <span class="exp-company">Besant Technologies</span>
+              <span class="exp-period">Jul 2023 – Feb 2024</span>
+            </div>
+            <div class="exp-role">Java Backend Intern</div>
+            <ul class="exp-points">
+              <li>
+                Built CRUD applications using JDBC and Servlets, strengthening
+                core Java OOP fundamentals
+              </li>
+              <li>
+                Practiced Multithreading, Collection Frameworks, and database
+                connectivity patterns
+              </li>
+              <li>
+                Gained understanding of end-to-end application flow in
+                production-like environments
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="edu-card animate zoom-in" style="--delay: 0.4s">
-          <div class="edu-degree">S.S.C (10th)</div>
-          <div class="edu-school">Zilla Parishad High School, Piler · Board of Secondary Education, AP</div>
-          <div class="edu-stats">
-            <div><div class="edu-stat-num">85%</div><div class="edu-stat-label">Percentage</div></div>
-            <div><div class="edu-stat-num">9.0</div><div class="edu-stat-label">GPA</div></div>
-            <div><div class="edu-stat-num">2017</div><div class="edu-stat-label">Year</div></div>
+      </section>
+
+      <!-- PROJECTS — card-free editorial rows -->
+      <section class="projects" id="projects">
+        <div class="section-tag">Portfolio</div>
+        <h2>Projects I've Built</h2>
+        <div class="projects-list">
+          <article class="project-row animate from-left" style="--delay: 0.1s">
+            <div class="project-visual banner-jobbox">
+              <span class="visual-icon">💼</span
+              ><span class="visual-label">Professional Work</span>
+            </div>
+            <div class="project-info">
+              <div class="project-category">💼 Job Platform · Production</div>
+              <h3>JobBox.one</h3>
+              <p class="project-desc">
+                End-to-end job portal with microservices backend, JWT security,
+                AI-based job scraping via Adzuna & Zapier, Redis/Caffeine
+                caching, and SEO sitemap generation. Deployed live on Ubuntu.
+              </p>
+              <div class="project-tech">
+                <span class="tech-pill">☕ Spring Boot</span>
+                <span class="tech-pill">🧩 Microservices</span>
+                <span class="tech-pill">⚛️ React.js</span>
+                <span class="tech-pill">🔑 JWT</span>
+                <span class="tech-pill">⚡ Redis</span>
+                <span class="tech-pill">🐬 MySQL</span>
+              </div>
+            </div>
+          </article>
+          <div class="project-divider"></div>
+
+          <article
+            class="project-row reverse animate from-right"
+            style="--delay: 0.1s"
+          >
+            <div class="project-visual banner-signbook">
+              <span class="visual-icon">✍️</span
+              ><span class="visual-label">Professional Work</span>
+            </div>
+            <div class="project-info">
+              <div class="project-category">
+                ✍️ Digital Signature · Production
+              </div>
+              <h3>SignBook.co</h3>
+              <p class="project-desc">
+                Digital signature platform built on microservices with Eureka
+                discovery, API Gateway, Feign Client inter-service
+                communication, Circuit Breaker fault tolerance, MongoDB-powered
+                real-time chat, and payment gateway integration (in progress).
+              </p>
+              <div class="project-tech">
+                <span class="tech-pill">🧭 Eureka</span>
+                <span class="tech-pill">🚪 API Gateway</span>
+                <span class="tech-pill">🍃 MongoDB</span>
+                <span class="tech-pill">🤝 Feign Client</span>
+                <span class="tech-pill">🧯 Circuit Breaker</span>
+                <span class="tech-pill">⚛️ React.js</span>
+              </div>
+            </div>
+          </article>
+          <div class="project-divider"></div>
+
+          <article class="project-row animate from-left" style="--delay: 0.1s">
+            <div class="project-visual banner-hotel">
+              <span class="visual-icon">🏨</span
+              ><span class="visual-label">Academic Project</span>
+            </div>
+            <div class="project-info">
+              <div class="project-category">🏨 Full Stack · Academic</div>
+              <h3>Hotel Booking Web App</h3>
+              <p class="project-desc">
+                Full-stack hotel booking system with Spring Security role
+                management, an Admin Dashboard for inventory, and a smooth
+                React.js experience for browsing and reserving rooms.
+              </p>
+              <div class="project-tech">
+                <span class="tech-pill">☕ Spring Boot</span>
+                <span class="tech-pill">⚛️ React.js</span>
+                <span class="tech-pill">🐬 MySQL</span>
+                <span class="tech-pill">🛡️ Spring Security</span>
+              </div>
+            </div>
+          </article>
+          <div class="project-divider"></div>
+
+          <article
+            class="project-row reverse animate from-right"
+            style="--delay: 0.1s"
+          >
+            <div class="project-visual banner-blockchain">
+              <span class="visual-icon">⛓️</span
+              ><span class="visual-label">Major Project</span>
+            </div>
+            <div class="project-info">
+              <div class="project-category">
+                🏆 Blockchain · Major Academic Project
+              </div>
+              <h3>Blockchain to Reduce Fraud in Banking Transactions</h3>
+              <p class="project-desc">
+                A transparent, tamper-resistant record-keeping system on the ICP
+                Blockchain (Dfinity) to combat fund misuse. Built decentralized
+                ledgers using Motoko and JavaScript that keep every transaction
+                immutable, auditable, and verifiable.
+              </p>
+              <div class="project-tech">
+                <span class="tech-pill">⛓️ ICP Blockchain</span>
+                <span class="tech-pill">🔵 Motoko</span>
+                <span class="tech-pill">🟨 JavaScript</span>
+                <span class="tech-pill">📜 Smart Contracts</span>
+              </div>
+            </div>
+          </article>
+          <div class="project-divider"></div>
+
+          <article class="project-row animate from-left" style="--delay: 0.1s">
+            <div class="project-visual banner-rental">
+              <span class="visual-icon">🚗</span
+              ><span class="visual-label">Database Project</span>
+            </div>
+            <div class="project-info">
+              <div class="project-category">🗄️ SQL Database · Fresher-era</div>
+              <h3>Car Rental Database System</h3>
+              <p class="project-desc">
+                Relational database design for a car rental system — covering
+                complex joins, subqueries, stored procedures, and normalized
+                schema design for efficient fleet and booking management.
+              </p>
+              <div class="project-tech">
+                <span class="tech-pill">🐬 SQL</span>
+                <span class="tech-pill">🔍 Joins &amp; Subqueries</span>
+                <span class="tech-pill">🧱 Schema Design</span>
+              </div>
+            </div>
+          </article>
+          <div class="project-divider"></div>
+
+          <article
+            class="project-row reverse animate from-right"
+            style="--delay: 0.1s"
+          >
+            <div class="project-visual banner-movies">
+              <span class="visual-icon">🎬</span
+              ><span class="visual-label">Fresher Project</span>
+            </div>
+            <div class="project-info">
+              <div class="project-category">
+                🎬 Frontend Design · Fresher-era
+              </div>
+              <h3>Movie Poster Project</h3>
+              <p class="project-desc">
+                Creative frontend project designing cinematic movie poster
+                layouts using HTML and CSS — demonstrating strong visual design
+                sense, typography, and responsive grid layouts.
+              </p>
+              <div class="project-tech">
+                <span class="tech-pill">📄 HTML5</span>
+                <span class="tech-pill">🎨 CSS3</span>
+                <span class="tech-pill">📐 Responsive Design</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section class="education" id="education">
+        <div class="section-tag">Academics</div>
+        <h2>Educational Background</h2>
+        <div class="edu-grid">
+          <div class="edu-card animate zoom-in" style="--delay: 0.2s">
+            <div class="edu-degree">B.Tech — Computer Science</div>
+            <div class="edu-school">
+              Sri Venkateswara College of Engineering &amp; Technology (SVCET),
+              Chittoor · JNTUA
+            </div>
+            <div class="edu-stats">
+              <div>
+                <div class="edu-stat-num">80%</div>
+                <div class="edu-stat-label">Percentage</div>
+              </div>
+              <div>
+                <div class="edu-stat-num">8.59</div>
+                <div class="edu-stat-label">GPA</div>
+              </div>
+              <div>
+                <div class="edu-stat-num">2023</div>
+                <div class="edu-stat-label">Year</div>
+              </div>
+            </div>
+          </div>
+          <div class="edu-card animate zoom-in" style="--delay: 0.1s">
+            <div class="edu-degree">Intermediate (12th)</div>
+            <div class="edu-school">
+              Sri Chaitanya Junior College, Piler · Board of Intermediate
+              Education, AP
+            </div>
+            <div class="edu-stats">
+              <div>
+                <div class="edu-stat-num">93%</div>
+                <div class="edu-stat-label">Percentage</div>
+              </div>
+              <div>
+                <div class="edu-stat-num">9.86</div>
+                <div class="edu-stat-label">GPA</div>
+              </div>
+              <div>
+                <div class="edu-stat-num">2019</div>
+                <div class="edu-stat-label">Year</div>
+              </div>
+            </div>
+          </div>
+          <div class="edu-card animate zoom-in" style="--delay: 0.4s">
+            <div class="edu-degree">S.S.C (10th)</div>
+            <div class="edu-school">
+              Zilla Parishad High School, Piler · Board of Secondary Education,
+              AP
+            </div>
+            <div class="edu-stats">
+              <div>
+                <div class="edu-stat-num">85%</div>
+                <div class="edu-stat-label">Percentage</div>
+              </div>
+              <div>
+                <div class="edu-stat-num">9.0</div>
+                <div class="edu-stat-label">GPA</div>
+              </div>
+              <div>
+                <div class="edu-stat-num">2017</div>
+                <div class="edu-stat-label">Year</div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- CERTIFICATIONS -->
-    <section class="certifications">
-      <div class="section-tag">Recognition</div>
-      <h2>Certifications &amp; Achievements</h2>
-      <div class="certs-grid">
-        <div class="cert-badge animate from-bottom" style="--delay: 0.1s"><div class="cert-icon">☕</div>Java Certification — Besant Technologies</div>
-        <div class="cert-badge animate from-bottom" style="--delay: 0.15s"><div class="cert-icon">🗄️</div>MySQL Certification — Besant Technologies</div>
-        <div class="cert-badge animate from-bottom" style="--delay: 0.2s"><div class="cert-icon">🎨</div>Front-End Development — Besant Technologies</div>
-        <div class="cert-badge animate from-bottom" style="--delay: 0.25s"><div class="cert-icon">🏆</div>SQL Mastery — HackerRank</div>
-        <div class="cert-badge animate from-bottom" style="--delay: 0.3s"><div class="cert-icon">⭐</div>ET Campus Stars Challenger 2022–23</div>
-      </div>
-    </section>
+      <!-- CERTIFICATIONS -->
+      <section class="certifications">
+        <div class="section-tag">Recognition</div>
+        <h2>Certifications & Achievements</h2>
 
-    <!-- CONTACT -->
-    <section class="contact" id="contact">
-      <div class="section-tag animate from-right" style="justify-content: center; --delay: 0.1s">Let's Connect</div>
-      <h2 class="animate from-right" style="--delay: 0.1s">Open to new opportunities</h2>
-      <p class="contact-sub animate from-right" style="--delay: 0.1s">Looking for full-stack roles where I can build, ship, and grow.</p>
-      <div class="contact-links animate zoom-in" style="--delay: 0.1s">
-        <a href="mailto:shaikrehana248@gmail.com" class="contact-link">✉️ shaikrehana248@gmail.com</a>
-        <a href="tel:+917569559778" class="contact-link alt">📞 +91-7569559778</a>
-        <a href="https://linkedin.com/in/rehana-s-060953240/" target="_blank" class="contact-link alt">🔗 LinkedIn</a>
-        <a href="https://github.com/Rehana-2427" target="_blank" class="contact-link alt">🐙 GitHub</a>
-      </div>
-    </section>
+        <div class="cert-timeline">
+          <div class="cert-card">
+            <div class="cert-year">01</div>
+            <div>
+              <h3>Java Certification</h3>
+              <p>Besant Technologies</p>
+            </div>
+          </div>
 
-    <footer>Designed &amp; crafted with care — <span>Shaik Rehana</span> © 2026</footer>
-    </div><!-- /#site-content -->
+          <div class="cert-card">
+            <div class="cert-year">02</div>
+            <div>
+              <h3>MySQL Certification</h3>
+              <p>Besant Technologies</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-year">03</div>
+            <div>
+              <h3>Front-End Development</h3>
+              <p>Besant Technologies</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-year">04</div>
+            <div>
+              <h3>SQL Mastery</h3>
+              <p>HackerRank</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-year">05</div>
+            <div>
+              <h3>ET Campus Stars Challenger</h3>
+              <p>2022 - 2023</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CONTACT -->
+      <section class="contact" id="contact">
+        <div
+          class="section-tag animate from-right"
+          style="justify-content: center; --delay: 0.1s"
+        >
+          Let's Connect
+        </div>
+        <h2 class="animate from-right" style="--delay: 0.1s">
+          Open to new opportunities
+        </h2>
+        <p class="contact-sub animate from-right" style="--delay: 0.1s">
+          Looking for full-stack roles where I can build, ship, and grow.
+        </p>
+        <div class="contact-links animate zoom-in" style="--delay: 0.1s">
+          <a href="mailto:shaikrehana248@gmail.com" class="contact-link"
+            >✉️ shaikrehana248@gmail.com</a
+          >
+          <a href="tel:+917569559778" class="contact-link alt"
+            >📞 +91-7569559778</a
+          >
+          <a
+            href="https://linkedin.com/in/rehana-s-060953240/"
+            target="_blank"
+            class="contact-link alt"
+            >🔗 LinkedIn</a
+          >
+          <a
+            href="https://github.com/Rehana-2427"
+            target="_blank"
+            class="contact-link alt"
+            >🐙 GitHub</a
+          >
+        </div>
+      </section>
+
+      <footer>
+        Designed &amp; crafted with care — <span>Shaik Rehana</span> © 2026
+      </footer>
+    </div>
+    <!-- /#site-content -->
 
     <script>
+      const train = document.querySelector(".train-icon");
+      const skillsTrack = document.querySelector(".skills-track");
+
+      window.addEventListener("scroll", () => {
+        const rect = skillsTrack.getBoundingClientRect();
+        const windowHeight = window.innerHeight;
+
+        // track visible progress
+        let progress = (windowHeight - rect.top) / (windowHeight + rect.height);
+
+        progress = Math.max(0, Math.min(progress, 1));
+
+        const points = [
+          { top: 8, left: 20 },
+          { top: 25, left: 80 },
+          { top: 42, left: 20 },
+          { top: 58, left: 80 },
+          { top: 75, left: 20 },
+          { top: 92, left: 80 },
+        ];
+
+        const segmentCount = points.length - 1;
+        const segment = progress * segmentCount;
+
+        const index = Math.floor(segment);
+
+        if (index >= segmentCount) {
+          train.style.top = points[segmentCount].top + "%";
+          train.style.left = points[segmentCount].left + "%";
+          return;
+        }
+
+        const localProgress = segment - index;
+
+        const start = points[index];
+        const end = points[index + 1];
+
+        const top = start.top + (end.top - start.top) * localProgress;
+
+        const left = start.left + (end.left - start.left) * localProgress;
+
+        train.style.top = top + "%";
+        train.style.left = left + "%";
+      });
       let lastScrollY = window.scrollY;
       const observer = new IntersectionObserver(
         (entries) => {
@@ -534,16 +1121,20 @@
             if (entry.isIntersecting) {
               entry.target.classList.add("visible");
               entry.target.classList.remove("scroll-up", "scroll-down");
-              entry.target.classList.add(goingDown ? "scroll-down" : "scroll-up");
+              entry.target.classList.add(
+                goingDown ? "scroll-down" : "scroll-up",
+              );
             } else {
               entry.target.classList.remove("visible");
             }
             lastScrollY = currentScrollY;
           });
         },
-        { threshold: 0.2 }
+        { threshold: 0.2 },
       );
-      document.querySelectorAll(".animate").forEach((el) => observer.observe(el));
+      document
+        .querySelectorAll(".animate")
+        .forEach((el) => observer.observe(el));
 
       (function intro() {
         const overlay = document.getElementById("introOverlay");
@@ -560,7 +1151,10 @@
             const timer = setInterval(() => {
               bubbleText.textContent += text[i];
               i++;
-              if (i >= text.length) { clearInterval(timer); resolve(); }
+              if (i >= text.length) {
+                clearInterval(timer);
+                resolve();
+              }
             }, speed);
           });
         }
@@ -583,7 +1177,9 @@
         function enterPortfolio() {
           overlay.classList.add("closing");
           body.classList.remove("intro-locked");
-          document.querySelectorAll(".hero .animate").forEach((el) => el.classList.add("visible"));
+          document
+            .querySelectorAll(".hero .animate")
+            .forEach((el) => el.classList.add("visible"));
           setTimeout(() => overlay.classList.add("hidden"), 650);
         }
 
