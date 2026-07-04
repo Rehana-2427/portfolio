@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shaik Rehana | Full Stack Developer</title>
+    <title> Rehana S | Full Stack Developer</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Manrope:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
@@ -323,6 +323,51 @@
           rx="8"
           fill="url(#keyGrad)"
         />
+
+        <!-- coffee mug -->
+        <ellipse cx="270" cy="270" rx="11" ry="3" fill="#000" opacity="0.15" />
+        <rect x="262" y="252" width="18" height="18" rx="4" fill="#fff" opacity="0.92" />
+        <path
+          d="M280 256 Q291 256 291 262 Q291 268 280 268"
+          stroke="#fff"
+          stroke-width="3"
+          fill="none"
+          opacity="0.92"
+        />
+        <path d="M264 252 Q271 248 278 252" stroke="#8a5d40" stroke-width="2" fill="none" opacity="0.6" />
+
+        <!-- small desk plant -->
+        <g>
+          <ellipse cx="58" cy="278" rx="16" ry="4" fill="#000" opacity="0.12" />
+          <path d="M48 262 L68 262 L65 278 L51 278 Z" fill="#8a5d40" />
+          <path
+            d="M58 262 Q52 240 40 232"
+            stroke="#3fae6a"
+            stroke-width="4"
+            fill="none"
+            stroke-linecap="round"
+          />
+          <path
+            d="M58 262 Q64 238 78 230"
+            stroke="#4fc27e"
+            stroke-width="4"
+            fill="none"
+            stroke-linecap="round"
+          />
+          <path
+            d="M58 262 Q58 234 58 222"
+            stroke="#3fae6a"
+            stroke-width="4"
+            fill="none"
+            stroke-linecap="round"
+          />
+        </g>
+
+        <!-- twinkling sparkles for a livelier scene -->
+        <circle class="sparkle sparkle-1" cx="86" cy="72" r="3" fill="#00c6ff" />
+        <circle class="sparkle sparkle-2" cx="256" cy="54" r="2.4" fill="#ff5c8a" />
+        <circle class="sparkle sparkle-3" cx="276" cy="118" r="2" fill="#7c5cff" />
+        <circle class="sparkle sparkle-2" cx="70" cy="130" r="2.2" fill="#00c6ff" />
       </svg>
 
       <div class="speech-bubble" id="speechBubble">
@@ -342,6 +387,7 @@
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
+          <li><a href="#activity">Activity</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#education">Education</a></li>
@@ -359,6 +405,13 @@
             scalable microservices and intuitive frontends with 2+ years of
             real-world production experience.
           </p>
+          <div class="hero-traits">
+            <span class="trait-pill">💪 Hardworking</span>
+            <span class="trait-pill">🎯 Detail-Oriented</span>
+            <span class="trait-pill">🧠 Fast Learner</span>
+            <span class="trait-pill">🤝 Team Player</span>
+            <span class="trait-pill">🔄 Consistent</span>
+          </div>
           <div class="hero-ctas">
             <a href="#projects" class="btn-primary">View Projects →</a>
             <a href="#contact" class="btn-outline">Get in Touch</a>
@@ -367,7 +420,9 @@
         <div class="hero-right animate from-right" style="--delay: 0.1s">
           <div class="hero-visual">
             <div class="hero-circle"></div>
-            <div class="hero-avatar">SR</div>
+            <div class="avatar-ring"></div>
+            <img class="hero-avatar" src="profile.png" alt="Rehana S" />
+            <div class="avatar-badge">Open to Work</div>
             <div class="hero-floating-card card-1">
               ☕ Spring Boot<span>Microservices</span>
             </div>
@@ -673,6 +728,43 @@
                 ><span class="ti">🤖</span>Gen AI</span
               >
             </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CODING ACTIVITY -->
+      <section class="coding-activity" id="activity">
+        <div class="section-tag">Consistency</div>
+        <h2>Coding Activity</h2>
+        <p class="skills-intro">
+          Daily practice on GitHub and LeetCode — pulled live, not a screenshot.
+        </p>
+
+        <div class="activity-card animate zoom-in" style="--delay: 0.1s">
+          <h3>GitHub Contributions</h3>
+          <img
+            class="github-chart"
+            src="https://ghchart.rshah.org/7c5cff/Rehana-2427"
+            alt="Rehana's GitHub contribution graph"
+          />
+        </div>
+
+        <div class="leetcode-stats" id="leetcodeStats">
+          <div class="lc-stat animate zoom-in" style="--delay: 0.1s">
+            <div class="lc-num" id="lcSolved">–</div>
+            <div class="lc-label">Problems Solved</div>
+          </div>
+          <div class="lc-stat animate zoom-in" style="--delay: 0.15s">
+            <div class="lc-num" id="lcEasy">–</div>
+            <div class="lc-label">Easy</div>
+          </div>
+          <div class="lc-stat animate zoom-in" style="--delay: 0.2s">
+            <div class="lc-num" id="lcMedium">–</div>
+            <div class="lc-label">Medium</div>
+          </div>
+          <div class="lc-stat animate zoom-in" style="--delay: 0.25s">
+            <div class="lc-num" id="lcHard">–</div>
+            <div class="lc-label">Hard</div>
           </div>
         </div>
       </section>
@@ -1062,7 +1154,7 @@
       </section>
 
       <footer>
-        Designed &amp; crafted with care — <span>Shaik Rehana</span> © 2026
+        Designed &amp; crafted with care — <span>Rehana S</span> © 2026
       </footer>
     </div>
     <!-- /#site-content -->
@@ -1185,6 +1277,44 @@
 
         enterBtn.addEventListener("click", enterPortfolio);
         runIntro();
+      })();
+
+      // ── Coding Activity: LeetCode stats (live) ──
+      (async function loadLeetCodeStats() {
+        const username = "S_rehana24";
+        try {
+          const res = await fetch(
+            `https://leetcode-stats-api.herokuapp.com/${username}`,
+          );
+          const data = await res.json();
+          document.getElementById("lcSolved").textContent =
+            data.totalSolved ?? "–";
+          document.getElementById("lcEasy").textContent =
+            data.easySolved ?? "–";
+          document.getElementById("lcMedium").textContent =
+            data.mediumSolved ?? "–";
+          document.getElementById("lcHard").textContent =
+            data.hardSolved ?? "–";
+        } catch (err) {
+          console.error("LeetCode stats failed to load:", err);
+          // Fallback API if the primary one is asleep/down
+          try {
+            const res2 = await fetch(
+              `https://alfa-leetcode-api.onrender.com/${username}/solved`,
+            );
+            const data2 = await res2.json();
+            document.getElementById("lcSolved").textContent =
+              data2.solvedProblem ?? "–";
+            document.getElementById("lcEasy").textContent =
+              data2.easySolved ?? "–";
+            document.getElementById("lcMedium").textContent =
+              data2.mediumSolved ?? "–";
+            document.getElementById("lcHard").textContent =
+              data2.hardSolved ?? "–";
+          } catch (err2) {
+            console.error("Fallback LeetCode API also failed:", err2);
+          }
+        }
       })();
     </script>
   </body>
